@@ -1,0 +1,47 @@
+# Environment variables
+**/.env
+**/.env.*
+
+# ─── Node.js ─────────────────────────────────────────
+node_modules/
+
+# ─── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+venv/
+*.egg-info/
+
+# ─── Rust ────────────────────────────────────────────
+target/
+Cargo.lock
+
+# ─── General Build Artifacts ─────────────────────────
+*.log
+*.lock
+*.tmp
+*.cache/
+.cache/
+build/
+dist/
+*.out
+
+# ─── macOS/Windows/Linux System Files ────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ─── Backup/Editor Files ─────────────────────────────
+*.bak
+*.swp
+*.swo
+*.orig
+*.tmp
+*~
+
+Life/CSA/site/csa-site-back/
+Life/CSA/site/csa-site-front/
+Life/Learning/rust/strings/
